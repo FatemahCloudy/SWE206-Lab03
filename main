@@ -1,6 +1,6 @@
 public class main {
     
-    // Method to read the list of students
+    // Method to read the list of studnts
     public static List<String> readStudentList() {
         List<String> students = new ArrayList<>();
         Scanner input = new Scanner(System.in);
@@ -38,7 +38,4 @@ public class main {
         return groups;
     }
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
 }
